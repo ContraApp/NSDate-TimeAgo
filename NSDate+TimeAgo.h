@@ -7,11 +7,11 @@
 
 
 // this method only returns "{value} {unit} ago" strings and no "yesterday"/"last month" strings
-- (NSString *)dateTimeAgo;
+//- (NSString *)dateTimeAgo;
 
 // this method gives when possible the date compared to the current calendar date: "this morning"/"yesterday"/"last week"/..
 // when more precision is needed (= less than 6 hours ago) it returns the same output as dateTimeAgo
-- (NSString *)dateTimeUntilNow;
+//- (NSString *)dateTimeUntilNow;
 
 @end
 
